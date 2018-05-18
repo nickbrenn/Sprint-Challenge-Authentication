@@ -2,7 +2,7 @@
   "name": "Sprint-Challenge-Authentication",
   "version": "1.0.0",
   "description": "* **DISCLAIMER** Authentication is a subject that many people spend a large amount of their careers learning about. This is not something we expect you to have a mastery over, rather, we're preparing you to be able have an intelligent.",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
@@ -25,6 +25,7 @@
     "express": "^4.16.2",
     "jsonwebtoken": "^8.1.0",
     "mongoose": "^4.13.7",
-    "node-fetch": "^1.7.3"
+    "node-fetch": "^1.7.3",
+    "nodemon": "^1.17.4"
   }
 }
